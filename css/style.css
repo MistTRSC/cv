@@ -728,6 +728,10 @@ footer {
   align-items: center;
 }
 
+a:hover {
+  color: var(--main-color);
+}
+
 /* responsive*/
 
 @media (max-width: 530px) {
