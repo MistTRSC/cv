@@ -732,6 +732,22 @@ a:hover {
   color: var(--main-color);
 }
 
+a:link {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
 /* responsive*/
 
 @media (max-width: 530px) {
