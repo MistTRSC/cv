@@ -69,7 +69,7 @@ h3  {
 
 a {
   color: #B9B8B6;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .highlight {
@@ -726,10 +726,6 @@ footer {
   font-size: 2em;
   -webkit-box-align: center;
   align-items: center;
-}
-
-a {
-  text-decoration: underline;
 }
 
 a:hover {
