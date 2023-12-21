@@ -732,19 +732,35 @@ a:hover {
   color: var(--main-color);
 }
 
-a:link {
+h1 > a:link {
   text-decoration: underline;
 }
 
-a:visited {
+h1 > a:visited {
   text-decoration: underline;
 }
 
-a:hover {
+h1 > a:hover {
   text-decoration: underline;
 }
 
-a:active {
+h1 > a:active {
+  text-decoration: underline;
+}
+
+p > a:link {
+  text-decoration: underline;
+}
+
+p > a:visited {
+  text-decoration: underline;
+}
+
+p > a:hover {
+  text-decoration: underline;
+}
+
+p > a:active {
   text-decoration: underline;
 }
 
