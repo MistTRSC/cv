@@ -728,6 +728,10 @@ footer {
   align-items: center;
 }
 
+a {
+  text-decoration: underline;
+}
+
 a:hover {
   color: var(--main-color);
 }
