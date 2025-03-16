@@ -484,19 +484,6 @@ header {
 
 }
 
-.content__skills {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  padding: 0 1em;
-  color: gray;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  -ms-flex-line-pack: distribute;
-}
-
 .content__profile p {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
@@ -761,6 +748,22 @@ p > a:hover {
 }
 
 p > a:active {
+  text-decoration: underline;
+}
+
+.link:link {
+  text-decoration: underline;
+}
+
+.link:visited {
+  text-decoration: underline;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:active {
   text-decoration: underline;
 }
 
